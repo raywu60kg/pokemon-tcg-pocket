@@ -1,0 +1,7 @@
+CREATE TABLE pokemons (
+    id VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    rarity VARCHAR(10) NOT NULL,
+    pack VARCHAR(255) NOT NULL,
+    image TEXT NOT NULL
+);
